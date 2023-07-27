@@ -1,5 +1,7 @@
+from random import randint
+
 print("Здравствуй, дорогой игрок! Вы будете играть в игру 'Угадай цифру'")
-x = 15
+x = randint(1, 100)
 game = 1
 while game == 1:
     try:
@@ -17,3 +19,4 @@ while game == 1:
         print("Пожалуйста, введите число")
 
 print("Спасибо, что сыграли")
+
