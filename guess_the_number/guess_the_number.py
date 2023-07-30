@@ -18,5 +18,4 @@ while game == 1:
     except ValueError:
         print("Пожалуйста, введите число")
 
-print("Спасибо, что сыграли")
-
+print("Спасибо, что сыграл")
