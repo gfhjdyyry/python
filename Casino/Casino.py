@@ -8,12 +8,12 @@ print("""Здравствуй, дорогой игрок!
 
 while True:
     try:
-         z = str(input("Загадайте число, и программа бросит кубик: "))
-         if z == "exit":
-             print("Выход из программы...")
-             break
-         x = randint(1, 6)
-         if x == int(z):
+        z = str(input("Загадайте число, и программа бросит кубик: "))
+        if z == "exit":
+          print("Выход из программы...")
+          break
+        x = randint(1, 6)
+        if x == int(z):
             print("Правильно")
             print("Если хотите сыграть снова, введите 'Да':")
             i = input()
@@ -22,7 +22,7 @@ while True:
             else:
                 print("Выход из программы...")
                 break
-         else:
-              print("неправильно, выпало число", x)
+        else:
+            print("неправильно, выпало число", x)
     except ValueError:
-         print("Введите число")
+        print("Пожалуйста, введите число")
